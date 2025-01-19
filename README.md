@@ -63,5 +63,5 @@ http://localhost:8080/Serenity
 Бэкенд 
 
 ```
-http://localhost:3000/short-url/
+http://localhost:3000/calculator/calculate
 ```
