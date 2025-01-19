@@ -29,9 +29,8 @@
 git clone https://github.com/Razdva94/Serenity.git
 ```
 
-Перейдите в корневые папки проекта (frontend, backend)
 
-2. Установить зависимости:
+2. Установить зависимости в папках frontend, backend:
 
 ```
 npm i
@@ -48,6 +47,11 @@ docker-compose build
 
 ```
 docker-compose up
+```
+5. тесты в папке backend
+
+```
+npm run test
 ```
 
 Фронтенд:
