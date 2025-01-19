@@ -30,6 +30,9 @@ const Display = () => {
 		switch (e.target.value[e.target.value.length - 1]) {
 			case '=':
 				try {
+					if (e.target.value.length < 2) {
+						return;
+					}
 					const result: IResult = await api.getResult(
 						expression,
 						apiSource.text,

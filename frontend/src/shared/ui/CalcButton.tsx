@@ -40,6 +40,9 @@ const CalcButton: React.FC<ICalcButtonProps> = ({ symbol }) => {
 			case '=':
 				{
 					try {
+						if (expression.length < 2) {
+							return;
+						}
 						const result: IResult = await api.getResult(
 							expression,
 							apiSource.text,
