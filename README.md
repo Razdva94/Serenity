@@ -53,6 +53,7 @@ docker-compose up
 ```
 npm run test
 ```
+6. Переключение api осуществляется кнопкой math.js/custom
 
 Фронтенд:
 
